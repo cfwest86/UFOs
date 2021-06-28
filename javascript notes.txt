@@ -1,0 +1,32 @@
+
+
+JavaScript is case sensitive
+
+
+Different languages utilize different methods to link words without using spaces, which is called a case style
+
+ex. snake_case kebab-case  camelCase  PascalCase
+
+java uses camelCase
+
+Much like SQL, when coding in JavaScript it's good practice to end statements with a semicolon;
+
+statements perform actions.
+Expressions create values.
+			Assigning a variable is an example of a statement
+
+Code blocks, which we will see more often as we start writing functions, are denoted by curly brackets. Code inside the curly brackets are typically indented two to four spaces
+
+
+Go to a site like Google (Links to an external site.) and activateyour DevTools. This is where we'll access our console; the console is the command line interface tool we'll use to test JavaScript,
+
+
+
+
+******The biggest difference between var and let is that the var declaration is global, meaning it applies to the program instead of being contained in a block of code.
+
+When a developer chooses to use let, it basically means "I might want to use this variable again later to hold different data, but in this code block I'll only use it once." In ES6+, let is typically used in place of var 
+
+Least specific:	var	-Variable used in entire program
+		let	-Variable used in a code block
+Most specific:	const	-Variable used once
