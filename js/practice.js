@@ -27,7 +27,7 @@ function doubleAddition(c, d) {
     return total;
   }
 //converted to an arrow function
-doubleAddition = (c, d) => addition(a, d) * 2;
+doubleAddition = (c, d) => addition(c, d) * 2;
 
   console.log(doubleAddition(33,25));
 
