@@ -37,21 +37,43 @@
             </div>
         </div>
     </div>
+    <br>
     <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
-                <form class=bg-dark>
-                    <p>Filter Search</p>
-                    <ul class="list-group bg-dark">
-                        <li class="list-group-item bg-dark">
-                            <label for="date">Enter Date</label>
-                            <input type="text" placeholder="1/10/2010" id="datetime" />
-                        </li>
-                        <li class="list-group-item bg-dark">
-                            <button id="filter-btn" type="button" class="btn btn-dark">Filter Table</button>
-                        </li>
-                    </ul>
-                </form>
+                <div class="filters">
+                    <form class=bg-dark>
+                        <h2>Filter Search</h2>
+                            <ul class="list-group bg-dark">
+                            <!--List item for date input filter-->
+                            <li class="list-group-item bg-dark">
+                                <label for="date">Enter Date</label>
+                                <input type="text" placeholder="1/10/2010" id="datetime" class="form-control"  />
+                            </li>
+                             <!--List item for city input filter-->
+                            <li class="list-group-item bg-dark">
+                                <label for="city">Enter a City</label>
+                                <input type="text" placeholder="Miami" id="city" class="form-control"  />
+                            </li>
+                            <!--List item for state input filter-->
+                            <li class="list-group-item bg-dark">
+                                <label for="state">Enter a State</label>
+                                <input type="text" placeholder="Florida" id="state" class="form-control"  />
+                            </li>
+                            <!--List item for country input filter-->
+                            <li class="list-group-item bg-dark">
+                                <label for="country">Enter a Country</label>
+                                <input type="text" placeholder="US" id="country" class="form-control"  />
+                            </li>
+                            <!--List item for shape input filter-->
+                            <li class="list-group-item bg-dark">
+                                <label for="shape">Enter a Shape</label>
+                                <input type="text" placeholder="triangle" id="shape"  class="form-control" />
+                            </li>
+ 
+                            </ul>
+                    </form>
+                </div> 
             </div>
             <div class="col-md-9">
                 <table class="table table-striped">
